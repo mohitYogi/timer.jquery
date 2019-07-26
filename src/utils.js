@@ -53,7 +53,7 @@ function getDefaultConfig() {
 		countdown: false,			// If true, this will render the timer as a countdown (must have duration)
 		format: null,				// This sets the format in which the time will be printed
 		updateFrequency: 500,		// How often should timer display update
-            	stopTimerOnDuration: false,	// If set to false than timer will keep on running even after duration is completed.
+            	stopTimerOnDuration: true,	// If set to false than timer will keep on running even after duration is completed.
 	};
 }
 
